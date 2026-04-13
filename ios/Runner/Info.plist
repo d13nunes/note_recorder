@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Note Recorder</string>
+	<string>Recording Challenge</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>note_recorder</string>
+	<string>recording_challenge</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -47,6 +47,12 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Note Recorder needs access to your microphone to record audio for transcription and AI-powered note generation.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Note Recorder uses speech recognition to transcribe your recordings into text.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We use this identifier to improve your app experience and measure campaign effectiveness.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

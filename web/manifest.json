@@ -1,6 +1,6 @@
 {
-    "name": "note_recorder",
-    "short_name": "note_recorder",
+    "name": "recording_challenge",
+    "short_name": "recording_challenge",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

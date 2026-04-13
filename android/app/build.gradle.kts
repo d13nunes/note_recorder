@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.note_recorder"
+    namespace = "com.dnunes.noterecorder"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.note_recorder"
+        applicationId = "com.dnunes.noterecorder"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
@@ -41,4 +41,11 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    // Adjust: Google Advertising ID
+    implementation("com.google.android.gms:play-services-ads-identifier:18.1.0")
+    // Adjust: Install referrer attribution
+    implementation("com.android.installreferrer:installreferrer:2.2")
 }

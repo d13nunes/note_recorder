@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "note_recorder" "\0"
+            VALUE "FileDescription", "recording_challenge" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "note_recorder" "\0"
+            VALUE "InternalName", "recording_challenge" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "note_recorder.exe" "\0"
-            VALUE "ProductName", "note_recorder" "\0"
+            VALUE "OriginalFilename", "recording_challenge.exe" "\0"
+            VALUE "ProductName", "recording_challenge" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

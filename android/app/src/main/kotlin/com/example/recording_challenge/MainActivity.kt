@@ -1,4 +1,4 @@
-package com.example.note_recorder
+package com.example.recording_challenge
 
 import io.flutter.embedding.android.FlutterActivity
 

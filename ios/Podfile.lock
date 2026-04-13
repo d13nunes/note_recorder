@@ -1,0 +1,90 @@
+PODS:
+  - Adapty (3.15.7):
+    - AdaptyLogger (= 3.15.7)
+    - AdaptyUIBuilder (= 3.15.7)
+  - adapty_flutter (3.15.5):
+    - Adapty (= 3.15.7)
+    - AdaptyPlugin (= 3.15.7)
+    - AdaptyUI (= 3.15.7)
+    - Flutter
+  - AdaptyLogger (3.15.7)
+  - AdaptyPlugin (3.15.7):
+    - Adapty (= 3.15.7)
+    - AdaptyLogger (= 3.15.7)
+    - AdaptyUI (= 3.15.7)
+    - AdaptyUIBuilder (= 3.15.7)
+  - AdaptyUI (3.15.7):
+    - Adapty (= 3.15.7)
+    - AdaptyLogger (= 3.15.7)
+    - AdaptyUIBuilder (= 3.15.7)
+  - AdaptyUIBuilder (3.15.7):
+    - AdaptyLogger (= 3.15.7)
+  - Adjust (5.6.0):
+    - Adjust/Adjust (= 5.6.0)
+  - Adjust/Adjust (5.6.0):
+    - AdjustSignature (= 3.62.0)
+  - adjust_sdk (5.6.0):
+    - Adjust (= 5.6.0)
+    - Flutter
+  - AdjustSignature (3.62.0)
+  - CwlCatchException (2.2.1):
+    - CwlCatchExceptionSupport (~> 2.2.1)
+  - CwlCatchExceptionSupport (2.2.1)
+  - Flutter (1.0.0)
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - speech_to_text (7.2.0):
+    - CwlCatchException
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - adapty_flutter (from `.symlinks/plugins/adapty_flutter/ios`)
+  - adjust_sdk (from `.symlinks/plugins/adjust_sdk/ios`)
+  - Flutter (from `Flutter`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - speech_to_text (from `.symlinks/plugins/speech_to_text/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Adapty
+    - AdaptyLogger
+    - AdaptyPlugin
+    - AdaptyUI
+    - AdaptyUIBuilder
+    - Adjust
+    - AdjustSignature
+    - CwlCatchException
+    - CwlCatchExceptionSupport
+
+EXTERNAL SOURCES:
+  adapty_flutter:
+    :path: ".symlinks/plugins/adapty_flutter/ios"
+  adjust_sdk:
+    :path: ".symlinks/plugins/adjust_sdk/ios"
+  Flutter:
+    :path: Flutter
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  speech_to_text:
+    :path: ".symlinks/plugins/speech_to_text/darwin"
+
+SPEC CHECKSUMS:
+  Adapty: abebbbc8f0b3c5bb5fee60b56370157d1eb6f0fc
+  adapty_flutter: 842c70387c2aa9440bdb79c597efbf3514db831b
+  AdaptyLogger: 0aa2decd92c377035ef68bf8455ae9fb9a1896e8
+  AdaptyPlugin: 4613933dd9d1f5676bfd64d2cf413972be60513b
+  AdaptyUI: 4cde24413c1a424eda3669c1580e4622c1e55e4a
+  AdaptyUIBuilder: 50ddeffc81a5bcf3b1fe06b2a2eda24944cd3a03
+  Adjust: 970dac57c760ffa971614478376f7099e8a25ab7
+  adjust_sdk: 7ba026a77ef224762fbaa96fcb20a7de7469a004
+  AdjustSignature: 682d788005a6e21557913a9dc0381ae8d943ca0a
+  CwlCatchException: 7acc161b299a6de7f0a46a6ed741eae2c8b4d75a
+  CwlCatchExceptionSupport: 54ccab8d8c78907b57f99717fb19d4cc3bce02dc
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  speech_to_text: 3b313d98516d3d0406cea424782ec25470c59d19
+
+PODFILE CHECKSUM: e833dee53008bcbd699ba05fd3d7731357085654
+
+COCOAPODS: 1.16.2
