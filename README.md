@@ -10,6 +10,12 @@ A mobile app that records what you say, transcribes it in real time, and uses AI
 4. **Review** — The finished note is presented in three tabs: Summary, Actions, and Transcript.
 5. **Paywall** — Displays a paywall to the user to subscribe to a premium plan.
 
+## Demo Videos
+
+- [**Permissions, Paywall & Recording**](videos/permissions_paywall_recording.mp4) — Full happy path: granting microphone and speech permissions, viewing the paywall, recording audio, and reviewing the generated note.
+- [**Multiple Recordings**](videos/multiple_recordings.mp4) — Back-to-back recordings showing the complete flow from start to finish, including retrying and starting over.
+- [**No Internet Connection**](videos/no_internet_connection.mp4) — How the app handles being offline: recording and transcription work locally, and the AI summarisation step fails gracefully with a retry option.
+
 ## How it works (technical overview)
 
 The app uses the device's built-in speech recognition (`speech_to_text` package) as the sole microphone consumer — there is no separate audio recording step. While the user speaks, recognised words accumulate in real time and are displayed on the recording screen via a 1-second timer tick.
