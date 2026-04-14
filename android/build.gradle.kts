@@ -26,6 +26,20 @@ subprojects {
                     targetCompatibility = JavaVersion.VERSION_17
                 }
             }
+            // Force Kotlin JVM target to 17 for plugins that hardcode an older target
+            // (e.g. adapty_flutter sets `android { kotlinOptions { jvmTarget = '1.8' } }`).
+            // Overriding at the Kotlin project-extension level is more reliable under KGP 2.x
+            // than task-level configureEach.
+            extensions.findByType<org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension>()?.apply {
+                compilerOptions {
+                    jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+                }
+            }
+            tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+                compilerOptions {
+                    jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+                }
+            }
         }
     }
 }
